@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Survey Page</title>
+<style>
+#header{
+  background-color: #466995;
+  border-bottom: 1px solid #466995;
+  overflow-y: auto;
+  width: 100%;
+  position:fixed;
+  left:0px;
+  top:0px;
+  z-index:1000;
+}
+ ul {
+  margin: 30px auto;
+  text-align: center;
+}
+li {
+  color: #FFF;
+  display: inline-block;
+  font-family: 'Oswald', sans-serif;
+  font-size: 16px;
+  text-align: left;
+  font-weight: 300;
+  text-transform: uppercase;
+  padding: 0 40px;
+}
+
+li:hover {
+  color: #DBE9EE;
+}
+
+#cover{
+	/*background-color: #3CBC8D;*/
+  height: 550px;
+  position: static;
+  top: -30px;
+  width: 100%;
+  background: url("http://kisquared.com/wp-content/uploads/background_keyboard.jpg") no-repeat top center;
+  background-size:cover;
+  background-attachment:fixed;
+  font-family: garamond;
+  text-align: center;
+  color:black;
+	
+}
+.left0,.left2,.left3{
+	border: 6px solid black;
+	padding:10px;
+	line-height: 30px;
+	height: 330px;
+	background-color: #F0F8FF;
+    width: 30%;
+    border-radius: 20px;
+}
+.left0
+{
+
+	position:absolute;
+	top: 612px;
+}
+
+.left2
+{
+	margin: auto;
+	margin-top: 30px;
+	
+	
+}
+.left3
+{
+	position:absolute;
+	top: 612px;
+    right: 10px;	
+}
+.left5
+{
+	border:0px solid #3CBC8D;
+	margin-left: 600px;
+	margin-top: 250px;
+	
+}
+#cover{
+	border: 2px solid black;
+	padding: 10px;
+	text-align:center;
+	background-color: #F0F8FF;
+}
+h1{
+	font-size: 150px;
+  font-weight: 300;
+}
+
+#btn{
+	
+  color: #FFF;
+  font-family: Times;
+  font-size: 26px;
+  padding: 14px;
+  background-image:-webkit-linear-gradient(#ff6d7c,#bc1e2e);
+}
+}
+
+body{
+	background-color:#6d8383; 
+}
+
+</style>
+</head>
+<body>
+<div id="header">
+<ul>
+<li>Home</li>
+<li>Contact</li>
+<li>Survey page</li>
+<li>About us</li>
+</ul>
+</div>
+<div id="cover">
+<h1> SURVEY FORM </h1>
+<form>
+<input id="btn" type="button" value="Lets begin">
+</form>
+</div>
+	<form>
+		<div class="left0">
+  		First name:  <input type="text" name="firstname"><br>
+  		Last name:  <input type="text" name="lastname"><br>
+  		Street Address:  <input type="text" name="address"><br>
+  		City:  <input type="text" name="city"><br>
+  		State:  <input type="text" name="state"><br>
+  		Zip:  <input type="number" name="zip"><br>
+  		<!--/div-->
+  		<!--div class="left1"-->
+  		Telephone no:  <input type="number" name="telephoneno"><br>
+  		URL:  <input type="url" name="url"><br>
+  		Email:  <input type="email" name="email"><br>
+  		Date of survey:  <input type="date" name="date"><br>
+  		</div>
+  		<!--/form-->
+  		<div class="left2">
+  		What did you like the most about the campus?<br>
+  		<!--form-->
+  		 <input type="checkbox" name="students"> Students<br>
+ 		 <input type="checkbox" name="location"> Location<br>
+ 		 <input type="checkbox" name="Campus"> Campus<br>
+ 		 <input type="checkbox" name="Atmosphere"> Atmosphere<br>
+ 		 <input type="checkbox" name="DormRooms"> Dorm Rooms<br>
+ 		 <input type="checkbox" name="Sports"> Sports<br> 		 
+ 		 </div>
+ 		 <!--/form-->
+ 		<div class="left3">
+ 		How did you become interested in the university?<br>
+ 		<form>
+ 		<input type="radio" name="friends"> Friends<br>
+ 		<input type="radio" name="TV"> TV<br>
+		<input type="radio" name="internet"> Internet<br>
+ 		<input type="radio" name="other"> Others<br>
+ 		<!--/form-->
+ 		</div>
+<!--form-->
+		<div class="left5">
+  		<input type="submit" value="Submit">
+    	<input type="button" value="Reset">
+    	</div>
+  </form>
+
+
+
+</body>
+</html>
